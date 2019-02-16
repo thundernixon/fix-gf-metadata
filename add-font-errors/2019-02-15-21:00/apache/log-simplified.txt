@@ -1,0 +1,222 @@
+-----------------------------------------------
+aclonica
+-----------------------------------------------
+arimo
+-----------------------------------------------
+calligraffitti
+-----------------------------------------------
+cherrycreamsoda
+-----------------------------------------------
+chewy
+-----------------------------------------------
+comingsoon
+-----------------------------------------------
+cousine
+-----------------------------------------------
+craftygirls
+-----------------------------------------------
+creepstercaps
+-----------------------------------------------
+crushed
+-----------------------------------------------
+fontdinerswanky
+-----------------------------------------------
+homemadeapple
+-----------------------------------------------
+irishgrover
+-----------------------------------------------
+jsmathcmbx10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmbx10'
+-----------------------------------------------
+jsmathcmex10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmex10'
+-----------------------------------------------
+jsmathcmmi10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmmi10'
+-----------------------------------------------
+jsmathcmr10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmr10'
+-----------------------------------------------
+jsmathcmsy10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmsy10'
+-----------------------------------------------
+jsmathcmti10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmti10'
+-----------------------------------------------
+justanotherhand
+-----------------------------------------------
+kranky
+-----------------------------------------------
+luckiestguy
+-----------------------------------------------
+maidenorange
+-----------------------------------------------
+montez
+-----------------------------------------------
+mountainsofchristmas
+-----------------------------------------------
+nokora
+-----------------------------------------------
+opensans
+-----------------------------------------------
+opensanscondensed
+-----------------------------------------------
+opensanshebrew
+-----------------------------------------------
+opensanshebrewcondensed
+-----------------------------------------------
+permanentmarker
+-----------------------------------------------
+rancho
+-----------------------------------------------
+redressed
+-----------------------------------------------
+roboto
+-----------------------------------------------
+robotocondensed
+-----------------------------------------------
+robotomono
+-----------------------------------------------
+robotoslab
+-----------------------------------------------
+rochester
+-----------------------------------------------
+rocksalt
+-----------------------------------------------
+satisfy
+-----------------------------------------------
+schoolbell
+-----------------------------------------------
+slackey
+-----------------------------------------------
+smokum
+-----------------------------------------------
+specialelite
+-----------------------------------------------
+sunshiney
+-----------------------------------------------
+syncopate
+-----------------------------------------------
+tinos
+-----------------------------------------------
+ultra
+-----------------------------------------------
+unkempt
+-----------------------------------------------
+walterturncoat
+-----------------------------------------------
+yellowtail

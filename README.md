@@ -56,7 +56,7 @@ This is better than editing line 121 to not pass in any argument for `min_pct_ex
 
 ### Looping add-font through font directories in bulk, and saving the errors
 
-I've made the following bash script to run `gftools add-font` to all directories of a directory that is passed in. Then, I've added it to the `bin` directory of my virtual environment.
+I've made the following bash script to run `gftools add-font` to all directories of a directory that is passed in. Then, I've added it to the `bin` directory of my virtual environment. (The venv I'm using is in a central location, rather than in my local google/fonts directory, as I don't want to add any code there).
 
 ```
 #!/bin/bash
@@ -110,3 +110,18 @@ PR `add-font` to:
 - [ ] correctly take the designer name from font nameID 8 or 9
 - [ ] handle exceptional font names, probably by getting them from font nameIDs 16 or 1, minus the possible style name
 - [ ] handle VF names
+
+
+---
+
+As suggested by Marc, I will test out [modifying add-font to check nameIDs for better font names](https://github.com/googlefonts/gftools/issues/122#issuecomment-463562083), rather than parsing file names:
+```
+nametable = font['name']
+
+family_name = None
+typographic_name = nametable.getName(16, 3, 1, 1033)
+if typographic_name:
+    family_name = typographic_name.toUnicode()
+else:
+    family_name = nametable.getName(1, 3, 1, 1033).toUnicode()
+```

@@ -1,0 +1,1860 @@
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'VF'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/archivovfbeta/ArchivoVFBeta.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'VF'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/asapvfbeta/AsapVFBeta.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/cabinvfbeta/CabinVFBeta.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/candal/Candal.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'Oblique'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/carterone/CarterOne.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'Cursive'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/chenla/Chenla.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 91, in _FileFamilyStyleWeights
+    raise OSError(errno.ENOENT, 'no font files found')
+FileNotFoundError: [Errno 2] no font files found
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/coveredbyyourgrace/CoveredByYourGrace.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/dangrek/Dangrek.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/dawningofanewday/DawningofaNewDay.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'VF'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'VF'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/faustinavfbeta/FaustinaVFBeta.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/freehand/Freehand.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/gentiumbasic/GenBasBI.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/gentiumbookbasic/GenBkBasBI.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'Oblique'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/gfsneohellenic/GFSNeohellenicBold.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/giveyouglory/GiveYouGlory.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/gloriahallelujah/GloriaHallelujah.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/goblinone/GoblinOne.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/goudybookletter1911/GoudyBookletter1911.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/gravitasone/GravitasOne.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'HANNA'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/holtwoodonesc/HoltwoodOneSC.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/imfelldoublepica/IMFeDPit28P.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/imfelldoublepicasc/IMFeDPsc28P.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/imfelldwpica/IMFePIrm28P.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/imfelldwpicasc/IMFePIsc28P.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/imfellenglish/IMFeENrm28P.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/imfellenglishsc/IMFeENsc28P.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/imfellfrenchcanon/IMFeFCit28P.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/imfellfrenchcanonsc/IMFeFCsc28P.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/imfellgreatprimer/IMFeGPit28P.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/imfellgreatprimersc/IMFeGPsc28P.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: '0605331'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/justmeagaindownhere/JustMeAgainDownHere.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/khmer/Khmer.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/koulen/Koulen.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/labelleaurore/LaBelleAurore.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/lateef/LateefRegOT.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/leaguescript/LeagueScript.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/lemonadavfbeta/LemonadaVFBeta.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'Bengali'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'Devanagari'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'Tamil'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/lovedbytheking/LovedbytheKing.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/loveyalikeasister/LoveYaLikeASister.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'VF'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'VF'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'Heavy'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/mavenprovfbeta/MavenProVFBeta.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/meddon/Meddon.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/medievalsharp/MedievalSharp.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/megrim/Megrim.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/metal/Metal.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/michroma/Michroma.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/monofett/Monofett.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/moul/Moul.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/moulpali/Moulpali.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/neucha/Neucha.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/nothingyoucoulddo/NothingYouCouldDo.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/novacut/NovaCut.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/novaflat/NovaFlat.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/novamono/NovaMono.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/novaoval/NovaOval.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/novaround/NovaRound.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/novaslim/NovaSlim.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/novasquare/NovaSquare.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/odormeanchey/OdorMeanChey.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/oflsortsmillgoudytt/OFLGoudyStMTT.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/overtherainbow/OvertheRainbow.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/pecita/Pecita.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/podkovavfbeta/PodkovaVFBeta.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/pollerone/PollerOne.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/preahvihear/Preahvihear.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/ptmono/PTM55FT.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/reeniebeanie/ReenieBeanie.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/rokkittvfbeta/RokkittVFBeta.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/ruslandisplay/RuslanDisplay.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'BoldL'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/shadowsintolight/ShadowsIntoLight.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/siamreap/Siemreap.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/siemreap/Siemreap.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 91, in _FileFamilyStyleWeights
+    raise OSError(errno.ENOENT, 'no font files found')
+FileNotFoundError: [Errno 2] no font files found
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 91, in _FileFamilyStyleWeights
+    raise OSError(errno.ENOENT, 'no font files found')
+FileNotFoundError: [Errno 2] no font files found
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/sixcaps/SixCaps.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/snippet/Snippet.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/sueellenfrancisco/SueEllenFrancisco.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/swankyandmoomoo/SwankyandMooMoo.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/taprom/Taprom.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/thabit/Thabit.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/thegirlnextdoor/TheGirlNextDoor.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'Book'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'Heavy'
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/waitingforthesunrise/WaitingfortheSunrise.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/wireone/WireOne.ttf
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 257, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 119, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 93, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 463, in FileFamilyStyleWeight
+    raise ParseError('Could not parse %s' % filename)
+gftools.util.google_fonts.ParseError: Could not parse ofl/zeyada/Zeyada.ttf

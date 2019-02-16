@@ -1,0 +1,242 @@
++ MAINDIR=/Users/stephennixon/type-repos/google-font-repos/fonts/ufl
+++ ls /Users/stephennixon/type-repos/google-font-repos/fonts/ufl
++ dirs='ubuntu
+ubuntucondensed
+ubuntumono'
++ for fontdir in '$dirs'
++ echo -----------------------------------------------
+-----------------------------------------------
++ echo ubuntu
+ubuntu
++ gftools add-font /Users/stephennixon/type-repos/google-font-repos/fonts/ufl/ubuntu --min_pct_ext 0.1
+no cp file for armenian found at /armenian_unique-glyphs.nam
+no cp file for avestan found at /avestan_unique-glyphs.nam
+no cp file for balinese found at /balinese_unique-glyphs.nam
+no cp file for bamum found at /bamum_unique-glyphs.nam
+no cp file for batak found at /batak_unique-glyphs.nam
+no cp file for brahmi found at /brahmi_unique-glyphs.nam
+no cp file for buginese found at /buginese_unique-glyphs.nam
+no cp file for buhid found at /buhid_unique-glyphs.nam
+no cp file for canadian-aboriginal found at /canadian-aboriginal_unique-glyphs.nam
+no cp file for carian found at /carian_unique-glyphs.nam
+no cp file for cham found at /cham_unique-glyphs.nam
+no cp file for chakma found at /chakma_unique-glyphs.nam
+no cp file for cherokee found at /cherokee_unique-glyphs.nam
+no cp file for chinese-simplified found at /chinese-simplified_unique-glyphs.nam
+no cp file for chinese-traditional found at /chinese-traditional_unique-glyphs.nam
+no cp file for coptic found at /coptic_unique-glyphs.nam
+no cp file for cuneiform found at /cuneiform_unique-glyphs.nam
+no cp file for cypriot found at /cypriot_unique-glyphs.nam
+no cp file for deseret found at /deseret_unique-glyphs.nam
+no cp file for egyptian-hieroglyphs found at /egyptian-hieroglyphs_unique-glyphs.nam
+no cp file for georgian found at /georgian_unique-glyphs.nam
+no cp file for gothic found at /gothic_unique-glyphs.nam
+no cp file for hanunoo found at /hanunoo_unique-glyphs.nam
+no cp file for imperial-aramaic found at /imperial-aramaic_unique-glyphs.nam
+no cp file for inscriptional-pahlavi found at /inscriptional-pahlavi_unique-glyphs.nam
+no cp file for inscriptional-parthian found at /inscriptional-parthian_unique-glyphs.nam
+no cp file for javanese found at /javanese_unique-glyphs.nam
+no cp file for kaithi found at /kaithi_unique-glyphs.nam
+no cp file for kayah-li found at /kayah-li_unique-glyphs.nam
+no cp file for kharoshthi found at /kharoshthi_unique-glyphs.nam
+no cp file for korean found at /korean_unique-glyphs.nam
+no cp file for lepcha found at /lepcha_unique-glyphs.nam
+no cp file for limbu found at /limbu_unique-glyphs.nam
+no cp file for linear-b found at /linear-b_unique-glyphs.nam
+no cp file for lisu found at /lisu_unique-glyphs.nam
+no cp file for lycian found at /lycian_unique-glyphs.nam
+no cp file for lydian found at /lydian_unique-glyphs.nam
+no cp file for mandaic found at /mandaic_unique-glyphs.nam
+no cp file for meetei-mayek found at /meetei-mayek_unique-glyphs.nam
+no cp file for mongolian found at /mongolian_unique-glyphs.nam
+no cp file for new-tai-lue found at /new-tai-lue_unique-glyphs.nam
+no cp file for ol-chiki found at /ol-chiki_unique-glyphs.nam
+no cp file for old-italic found at /old-italic_unique-glyphs.nam
+no cp file for old-persian found at /old-persian_unique-glyphs.nam
+no cp file for old-south-arabian found at /old-south-arabian_unique-glyphs.nam
+no cp file for old-turkic found at /old-turkic_unique-glyphs.nam
+no cp file for ogham found at /ogham_unique-glyphs.nam
+no cp file for osmanya found at /osmanya_unique-glyphs.nam
+no cp file for phags-pa found at /phags-pa_unique-glyphs.nam
+no cp file for runic found at /runic_unique-glyphs.nam
+no cp file for samaritan found at /samaritan_unique-glyphs.nam
+no cp file for phoenician found at /phoenician_unique-glyphs.nam
+no cp file for rejang found at /rejang_unique-glyphs.nam
+no cp file for saurashtra found at /saurashtra_unique-glyphs.nam
+no cp file for shavian found at /shavian_unique-glyphs.nam
+no cp file for sundanese found at /sundanese_unique-glyphs.nam
+no cp file for syloti-nagri found at /syloti-nagri_unique-glyphs.nam
+no cp file for syriac-eastern found at /syriac-eastern_unique-glyphs.nam
+no cp file for syriac-estrangela found at /syriac-estrangela_unique-glyphs.nam
+no cp file for syriac-western found at /syriac-western_unique-glyphs.nam
+no cp file for tagalog found at /tagalog_unique-glyphs.nam
+no cp file for tagbanwa found at /tagbanwa_unique-glyphs.nam
+no cp file for tai-le found at /tai-le_unique-glyphs.nam
+no cp file for tai-tham found at /tai-tham_unique-glyphs.nam
+no cp file for tai-viet found at /tai-viet_unique-glyphs.nam
+no cp file for thaana found at /thaana_unique-glyphs.nam
+no cp file for tibetan found at /tibetan_unique-glyphs.nam
+no cp file for tifinagh found at /tifinagh_unique-glyphs.nam
+no cp file for vai found at /vai_unique-glyphs.nam
+no cp file for ugaritic found at /ugaritic_unique-glyphs.nam
+no cp file for yi found at /yi_unique-glyphs.nam
+DESCRIPTION.en_us.html exists
+No change to /Users/stephennixon/type-repos/google-font-repos/fonts/ufl/ubuntu/METADATA.pb
++ for fontdir in '$dirs'
++ echo -----------------------------------------------
+-----------------------------------------------
++ echo ubuntucondensed
+ubuntucondensed
++ gftools add-font /Users/stephennixon/type-repos/google-font-repos/fonts/ufl/ubuntucondensed --min_pct_ext 0.1
+no cp file for armenian found at /armenian_unique-glyphs.nam
+no cp file for avestan found at /avestan_unique-glyphs.nam
+no cp file for balinese found at /balinese_unique-glyphs.nam
+no cp file for bamum found at /bamum_unique-glyphs.nam
+no cp file for batak found at /batak_unique-glyphs.nam
+no cp file for brahmi found at /brahmi_unique-glyphs.nam
+no cp file for buginese found at /buginese_unique-glyphs.nam
+no cp file for buhid found at /buhid_unique-glyphs.nam
+no cp file for canadian-aboriginal found at /canadian-aboriginal_unique-glyphs.nam
+no cp file for carian found at /carian_unique-glyphs.nam
+no cp file for cham found at /cham_unique-glyphs.nam
+no cp file for chakma found at /chakma_unique-glyphs.nam
+no cp file for cherokee found at /cherokee_unique-glyphs.nam
+no cp file for chinese-simplified found at /chinese-simplified_unique-glyphs.nam
+no cp file for chinese-traditional found at /chinese-traditional_unique-glyphs.nam
+no cp file for coptic found at /coptic_unique-glyphs.nam
+no cp file for cuneiform found at /cuneiform_unique-glyphs.nam
+no cp file for cypriot found at /cypriot_unique-glyphs.nam
+no cp file for deseret found at /deseret_unique-glyphs.nam
+no cp file for egyptian-hieroglyphs found at /egyptian-hieroglyphs_unique-glyphs.nam
+no cp file for georgian found at /georgian_unique-glyphs.nam
+no cp file for gothic found at /gothic_unique-glyphs.nam
+no cp file for hanunoo found at /hanunoo_unique-glyphs.nam
+no cp file for imperial-aramaic found at /imperial-aramaic_unique-glyphs.nam
+no cp file for inscriptional-pahlavi found at /inscriptional-pahlavi_unique-glyphs.nam
+no cp file for inscriptional-parthian found at /inscriptional-parthian_unique-glyphs.nam
+no cp file for javanese found at /javanese_unique-glyphs.nam
+no cp file for kaithi found at /kaithi_unique-glyphs.nam
+no cp file for kayah-li found at /kayah-li_unique-glyphs.nam
+no cp file for kharoshthi found at /kharoshthi_unique-glyphs.nam
+no cp file for korean found at /korean_unique-glyphs.nam
+no cp file for lepcha found at /lepcha_unique-glyphs.nam
+no cp file for limbu found at /limbu_unique-glyphs.nam
+no cp file for linear-b found at /linear-b_unique-glyphs.nam
+no cp file for lisu found at /lisu_unique-glyphs.nam
+no cp file for lycian found at /lycian_unique-glyphs.nam
+no cp file for lydian found at /lydian_unique-glyphs.nam
+no cp file for mandaic found at /mandaic_unique-glyphs.nam
+no cp file for meetei-mayek found at /meetei-mayek_unique-glyphs.nam
+no cp file for mongolian found at /mongolian_unique-glyphs.nam
+no cp file for new-tai-lue found at /new-tai-lue_unique-glyphs.nam
+no cp file for ol-chiki found at /ol-chiki_unique-glyphs.nam
+no cp file for old-italic found at /old-italic_unique-glyphs.nam
+no cp file for old-persian found at /old-persian_unique-glyphs.nam
+no cp file for old-south-arabian found at /old-south-arabian_unique-glyphs.nam
+no cp file for old-turkic found at /old-turkic_unique-glyphs.nam
+no cp file for ogham found at /ogham_unique-glyphs.nam
+no cp file for osmanya found at /osmanya_unique-glyphs.nam
+no cp file for phags-pa found at /phags-pa_unique-glyphs.nam
+no cp file for runic found at /runic_unique-glyphs.nam
+no cp file for samaritan found at /samaritan_unique-glyphs.nam
+no cp file for phoenician found at /phoenician_unique-glyphs.nam
+no cp file for rejang found at /rejang_unique-glyphs.nam
+no cp file for saurashtra found at /saurashtra_unique-glyphs.nam
+no cp file for shavian found at /shavian_unique-glyphs.nam
+no cp file for sundanese found at /sundanese_unique-glyphs.nam
+no cp file for syloti-nagri found at /syloti-nagri_unique-glyphs.nam
+no cp file for syriac-eastern found at /syriac-eastern_unique-glyphs.nam
+no cp file for syriac-estrangela found at /syriac-estrangela_unique-glyphs.nam
+no cp file for syriac-western found at /syriac-western_unique-glyphs.nam
+no cp file for tagalog found at /tagalog_unique-glyphs.nam
+no cp file for tagbanwa found at /tagbanwa_unique-glyphs.nam
+no cp file for tai-le found at /tai-le_unique-glyphs.nam
+no cp file for tai-tham found at /tai-tham_unique-glyphs.nam
+no cp file for tai-viet found at /tai-viet_unique-glyphs.nam
+no cp file for thaana found at /thaana_unique-glyphs.nam
+no cp file for tibetan found at /tibetan_unique-glyphs.nam
+no cp file for tifinagh found at /tifinagh_unique-glyphs.nam
+no cp file for vai found at /vai_unique-glyphs.nam
+no cp file for ugaritic found at /ugaritic_unique-glyphs.nam
+no cp file for yi found at /yi_unique-glyphs.nam
+DESCRIPTION.en_us.html exists
+No change to /Users/stephennixon/type-repos/google-font-repos/fonts/ufl/ubuntucondensed/METADATA.pb
++ for fontdir in '$dirs'
++ echo -----------------------------------------------
+-----------------------------------------------
++ echo ubuntumono
+ubuntumono
++ gftools add-font /Users/stephennixon/type-repos/google-font-repos/fonts/ufl/ubuntumono --min_pct_ext 0.1
+no cp file for armenian found at /armenian_unique-glyphs.nam
+no cp file for avestan found at /avestan_unique-glyphs.nam
+no cp file for balinese found at /balinese_unique-glyphs.nam
+no cp file for bamum found at /bamum_unique-glyphs.nam
+no cp file for batak found at /batak_unique-glyphs.nam
+no cp file for brahmi found at /brahmi_unique-glyphs.nam
+no cp file for buginese found at /buginese_unique-glyphs.nam
+no cp file for buhid found at /buhid_unique-glyphs.nam
+no cp file for canadian-aboriginal found at /canadian-aboriginal_unique-glyphs.nam
+no cp file for carian found at /carian_unique-glyphs.nam
+no cp file for cham found at /cham_unique-glyphs.nam
+no cp file for chakma found at /chakma_unique-glyphs.nam
+no cp file for cherokee found at /cherokee_unique-glyphs.nam
+no cp file for chinese-simplified found at /chinese-simplified_unique-glyphs.nam
+no cp file for chinese-traditional found at /chinese-traditional_unique-glyphs.nam
+no cp file for coptic found at /coptic_unique-glyphs.nam
+no cp file for cuneiform found at /cuneiform_unique-glyphs.nam
+no cp file for cypriot found at /cypriot_unique-glyphs.nam
+no cp file for deseret found at /deseret_unique-glyphs.nam
+no cp file for egyptian-hieroglyphs found at /egyptian-hieroglyphs_unique-glyphs.nam
+no cp file for georgian found at /georgian_unique-glyphs.nam
+no cp file for gothic found at /gothic_unique-glyphs.nam
+no cp file for hanunoo found at /hanunoo_unique-glyphs.nam
+no cp file for imperial-aramaic found at /imperial-aramaic_unique-glyphs.nam
+no cp file for inscriptional-pahlavi found at /inscriptional-pahlavi_unique-glyphs.nam
+no cp file for inscriptional-parthian found at /inscriptional-parthian_unique-glyphs.nam
+no cp file for javanese found at /javanese_unique-glyphs.nam
+no cp file for kaithi found at /kaithi_unique-glyphs.nam
+no cp file for kayah-li found at /kayah-li_unique-glyphs.nam
+no cp file for kharoshthi found at /kharoshthi_unique-glyphs.nam
+no cp file for korean found at /korean_unique-glyphs.nam
+no cp file for lepcha found at /lepcha_unique-glyphs.nam
+no cp file for limbu found at /limbu_unique-glyphs.nam
+no cp file for linear-b found at /linear-b_unique-glyphs.nam
+no cp file for lisu found at /lisu_unique-glyphs.nam
+no cp file for lycian found at /lycian_unique-glyphs.nam
+no cp file for lydian found at /lydian_unique-glyphs.nam
+no cp file for mandaic found at /mandaic_unique-glyphs.nam
+no cp file for meetei-mayek found at /meetei-mayek_unique-glyphs.nam
+no cp file for mongolian found at /mongolian_unique-glyphs.nam
+no cp file for new-tai-lue found at /new-tai-lue_unique-glyphs.nam
+no cp file for ol-chiki found at /ol-chiki_unique-glyphs.nam
+no cp file for old-italic found at /old-italic_unique-glyphs.nam
+no cp file for old-persian found at /old-persian_unique-glyphs.nam
+no cp file for old-south-arabian found at /old-south-arabian_unique-glyphs.nam
+no cp file for old-turkic found at /old-turkic_unique-glyphs.nam
+no cp file for ogham found at /ogham_unique-glyphs.nam
+no cp file for osmanya found at /osmanya_unique-glyphs.nam
+no cp file for phags-pa found at /phags-pa_unique-glyphs.nam
+no cp file for runic found at /runic_unique-glyphs.nam
+no cp file for samaritan found at /samaritan_unique-glyphs.nam
+no cp file for phoenician found at /phoenician_unique-glyphs.nam
+no cp file for rejang found at /rejang_unique-glyphs.nam
+no cp file for saurashtra found at /saurashtra_unique-glyphs.nam
+no cp file for shavian found at /shavian_unique-glyphs.nam
+no cp file for sundanese found at /sundanese_unique-glyphs.nam
+no cp file for syloti-nagri found at /syloti-nagri_unique-glyphs.nam
+no cp file for syriac-eastern found at /syriac-eastern_unique-glyphs.nam
+no cp file for syriac-estrangela found at /syriac-estrangela_unique-glyphs.nam
+no cp file for syriac-western found at /syriac-western_unique-glyphs.nam
+no cp file for tagalog found at /tagalog_unique-glyphs.nam
+no cp file for tagbanwa found at /tagbanwa_unique-glyphs.nam
+no cp file for tai-le found at /tai-le_unique-glyphs.nam
+no cp file for tai-tham found at /tai-tham_unique-glyphs.nam
+no cp file for tai-viet found at /tai-viet_unique-glyphs.nam
+no cp file for thaana found at /thaana_unique-glyphs.nam
+no cp file for tibetan found at /tibetan_unique-glyphs.nam
+no cp file for tifinagh found at /tifinagh_unique-glyphs.nam
+no cp file for vai found at /vai_unique-glyphs.nam
+no cp file for ugaritic found at /ugaritic_unique-glyphs.nam
+no cp file for yi found at /yi_unique-glyphs.nam
+DESCRIPTION.en_us.html exists
+No change to /Users/stephennixon/type-repos/google-font-repos/fonts/ufl/ubuntumono/METADATA.pb

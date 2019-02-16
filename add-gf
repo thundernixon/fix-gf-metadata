@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# set -x # uncomment to see progress
+# set -e # uncomment to stop on errors
+
+# get args
+dirOfFontDirs="$1"
+
+currentDate=$(date +'%Y-%m-%d-%H:00')
+
+dirType=$(basename $dirOfFontDirs)
+
+mkdir -p add-font-errors/$currentDate/$dirType
+
+logPath=add-font-errors/$currentDate/$dirType/log.txt
+
+add_fonts () {
+    MAINDIR=$1
+    dirs=$(ls $MAINDIR)
+    for fontdir in $dirs; do
+        echo -----------------------------------------------
+        echo $fontdir
+        gftools add-font $MAINDIR/$fontdir --min_pct_ext 0.1
+    done
+}
+
+add_fonts $dirOfFontDirs > $logPath 2>&1
+
+errorPath=${logPath/".txt"/"-simplified.txt"}
+
+cat $logPath | grep -v "no cp file" | grep -v "DESCRIPTION.en_us.html" | grep -v "No change to " | grep -v "+ " > $errorPath
