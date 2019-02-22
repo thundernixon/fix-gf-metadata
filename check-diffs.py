@@ -24,17 +24,26 @@ def check_diffs(dir):
     # make log file with current date
     logFile = open("git-diffs.txt", "w+")
 
-    logFile.write("hello \n")
+    logFile.write("Git Diffs for fonts \n \n")
 
     logFile.write(str(dir))
     for subdir in os.walk(dir):  # might need OS walk
-        #     gitDiff = subprocess.check()
-        logFile.write("\n")
-
-        gitDiff = subprocess.check_output(
-            ["git diff", str(subdir[0])], shell=True)
         logFile.write(str(subdir[0]) + "\n")
-        logFile.write(str(gitDiff))
+        # logFile.write(str(subdir) + "\n")
+        metadata = subdir[0] + "/METADATA.pb"
+
+        command = "git diff -- " + metadata
+        logFile.write(command + "\n")
+
+        try:
+            gitDiff = subprocess.check_output(command, shell=True)
+            for line in gitDiff.split(b'\n'):
+                if b'+' in line:
+                    logFile.write(str(line) + "\n")
+            logFile.write(
+                "\n-----------------------------------------------------------\n")
+        except subprocess.CalledProcessError:
+            continue
 
     logFile.close()
 
