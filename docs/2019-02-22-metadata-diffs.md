@@ -23,8 +23,13 @@ Basically all differences are to font names, copyright strings, and (as hoped fo
   - the "menu" subset has changed to the last-listed subset
 
 **Other changes**
+
+Needs redoing
   - adobe blank has incorrectly had the designer and category changed to defaults (I had deleted its former metadata file before running add-font)
 
+Seems good
+- Molle has been correctly relabeled as a "regular" style, rather than an "italic" style
+- Nanum Gothic has gotten corrected weight values (Bold was `800` and is now `700`, etc)
 
 ## Suspect updates
 
@@ -82,11 +87,80 @@ baumans
     '+subsets: "cyrillic-ext"'
 ```
 
+```
+scopeone
+    '+subsets: "cyrillic-ext"'
+```
+
+**What if just one style of a font contains a subset?**
+
+News Cycle regular includes Cyrillic and Greek, but News Cycle Bold does not.
+
+**Lost subsets**
 Should Gamja have lost its Korean subset?
 ```
 gamjaflower
     '-subsets: "korean"'
     '+subsets: "latin-ext"'
+```
+nanumbrushscript, nanumgothic, nanumgothiccoding, nanummyeongjo, and nanumpenscript
+```
+'-subsets: "korean"'
+```
+```
+stylish
+    '-subsets: "korean"'
+```
+```
+sunflower
+    '-subsets: "korean"'
+```
+```
+teko
+    '-subsets: "devanagari"'
+```
+
+```
+tenorsans
+    '-subsets: "cyrillic-ext"'
+```
+
+```
+zcoolxiaowei
+    '-subsets: "chinese-simplified"'
+```
+
+
+```
+poppins
+    '-subsets: "devanagari"'
+```
+
+```
+scheherazade
+    '-subsets: "arabic"'
+```
+
+**Changed font names**
+
+```
+oldstandardtt
+    '-name: "Old Standard TT"'
+    '+name: "Old Standard"'
+```
+
+```
+ptserif
+    '-name: "PT Serif"'
+    '+name: "Web"'
+    '-  name: "PT Serif"'
+    '+  name: "Web"'
+```
+
+```
+ptserifcaption
+    '-name: "PT Serif Caption"'
+    '+name: "Web"'
 ```
 
 ## Next Steps
@@ -94,6 +168,8 @@ gamjaflower
 - [ ] re-run diff checks
 - [ ] check into suspect updates
 - [ ] check with Marc on a few suspect updates if they aren't clearly good or bad
+  - [ ] especially on loss of `korean` subset
+  - [ ] or language converage that is different between styles (e.g. News Cycle)
 - [ ] (maybe) find a way to render the copyright strings (containing `+  copyright` in the diffs), to tell more easily what escapes are good/bad
 - [ ] find way to get a specific read on percentages met by certain subsets (e.g. how much korean is in Gamja Flower?)
 - [ ] find list of known camel-cased names (in FontBakery?) and correct those in add-font, or at least in the metadata
