@@ -28,20 +28,25 @@ def check_diffs(dir):
 
     logFile.write(str(dir))
     for subdir in os.walk(dir):  # might need OS walk
-        logFile.write(str(subdir[0]) + "\n")
-        # logFile.write(str(subdir) + "\n")
         metadata = subdir[0] + "/METADATA.pb"
-
         command = "git diff -- " + metadata
-        logFile.write(command + "\n")
-
+        print(command)
         try:
             gitDiff = subprocess.check_output(command, shell=True)
-            for line in gitDiff.split(b'\n'):
-                if b'+' in line:
-                    logFile.write(str(line) + "\n")
-            logFile.write(
-                "\n-----------------------------------------------------------\n")
+
+            if gitDiff is not b'':
+                if str(subdir[0]) is not "ofl":
+                    logFile.write(str(subdir[0]) + "\n")
+
+                for line in gitDiff.split(b'\n'):
+                    # logFile.write(str(line)[:3] + '\n')
+                    lineStart = str(line)[:3]
+                    if '+' in lineStart or '-' in lineStart:
+                        if b'---' not in line and b'+++' not in line:
+                            logFile.write(str(line).replace(
+                                "b'", "'").replace("'\n", "\n") + "\n")
+                logFile.write(
+                    "----------------------------------\n")
         except subprocess.CalledProcessError:
             continue
 
