@@ -167,6 +167,7 @@ ptserifcaption
 - [ ] start with fresh batch of fonts repo, then re-build metadata files (without deleting any, first)
 - [ ] re-run diff checks
 - [ ] check into suspect updates
+  - [ ] check what the bar is to have a `korean` or `simplified chinese` subset – it seems like it must be too strict, as these are being lost
 - [ ] check with Marc on a few suspect updates if they aren't clearly good or bad
   - [ ] especially on loss of `korean` subset
   - [ ] or language converage that is different between styles (e.g. News Cycle)
