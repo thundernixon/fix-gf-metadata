@@ -26,29 +26,34 @@ def check_diffs(dir):
 
     logFile.write("Git Diffs for fonts \n \n")
 
-    logFile.write(str(dir))
-    for subdir in os.walk(dir):  # might need OS walk
-        metadata = subdir[0] + "/METADATA.pb"
-        command = "git diff -- " + metadata
-        print(command)
-        try:
-            gitDiff = subprocess.check_output(command, shell=True)
+    # logFile.write(str(dir))
+    # for path in os.walk(dir):  # might need OS walk
+    for path, dirs, files in os.walk(dir):  # might need OS walk
+        # for dirname in sorted(dirs):
+        #     logFile.write(dirname + "\n")
+        # for dirname in sorted(path[0]):
+        for dirname in sorted(dirs):
+            metadata = str(dir) + "/" + dirname + "/METADATA.pb"
+            command = "git diff -- " + metadata
+            print(command)
+            try:
+                gitDiff = subprocess.check_output(command, shell=True)
 
-            if gitDiff is not b'':
-                if str(subdir[0]) is not "ofl":
-                    logFile.write(str(subdir[0]) + "\n")
+                if gitDiff is not b'':
+                    if str(dirname) is not str(dir):
+                        logFile.write(str(dirname) + "\n")
 
-                for line in gitDiff.split(b'\n'):
-                    # logFile.write(str(line)[:3] + '\n')
-                    lineStart = str(line)[:3]
-                    if '+' in lineStart or '-' in lineStart:
-                        if b'---' not in line and b'+++' not in line:
-                            logFile.write(str(line).replace(
-                                "b'", "'").replace("'\n", "\n") + "\n")
-                logFile.write(
-                    "----------------------------------\n")
-        except subprocess.CalledProcessError:
-            continue
+                    for line in gitDiff.split(b'\n'):
+                        # logFile.write(str(line)[:3] + '\n')
+                        lineStart = str(line)[:3]
+                        if '+' in lineStart or '-' in lineStart:
+                            if b'---' not in line and b'+++' not in line:
+                                logFile.write('    ' + str(line).replace(
+                                    "b'", "'").replace("'\n", "\n") + "\n")
+                    logFile.write(
+                        "----------------------------------\n")
+            except subprocess.CalledProcessError:
+                continue
 
     logFile.close()
 
