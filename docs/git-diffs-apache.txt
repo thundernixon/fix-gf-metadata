@@ -27,9 +27,7 @@ craftygirls
 creepstercaps
     '-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow (diner@fontdiner.com). All rights reserved."'
     '+  copyright: "Copyright (c) 2011 by Font Diner, Inc. All rights reserved."'
-    '-subsets: "menu"'
     '+subsets: "latin-ext"'
-    '+subsets: "menu"'
 ----------------------------------
 crushed
     '-  copyright: "Copyright (c) 2010 by Brian J. Bonislawsky DBA Astigmatic (AOETI). All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'
@@ -111,20 +109,12 @@ redressed
     '+subsets: "latin-ext"'
 ----------------------------------
 roboto
-    '-subsets: "menu"'
-    '+subsets: "menu"'
 ----------------------------------
 robotocondensed
-    '-subsets: "menu"'
-    '+subsets: "menu"'
 ----------------------------------
 robotomono
-    '-subsets: "menu"'
-    '+subsets: "menu"'
 ----------------------------------
 robotoslab
-    '-subsets: "menu"'
-    '+subsets: "menu"'
 ----------------------------------
 rochester
     '-  copyright: "Copyright (c) 2010 by Font Diner, Inc DBA Sideshow. All rights reserved. Available under the Apache 2.0 licence. http://www.apache.org/licenses/LICENSE-2.0.html"'

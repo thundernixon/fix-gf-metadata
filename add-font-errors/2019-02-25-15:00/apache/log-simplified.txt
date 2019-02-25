@@ -1,0 +1,261 @@
+-----------------------------------------------
+aclonica
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/aclonica/METADATA.pb
+-----------------------------------------------
+arimo
+-----------------------------------------------
+calligraffitti
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/calligraffitti/METADATA.pb
+-----------------------------------------------
+cherrycreamsoda
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/cherrycreamsoda/METADATA.pb
+-----------------------------------------------
+chewy
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/chewy/METADATA.pb
+-----------------------------------------------
+comingsoon
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/comingsoon/METADATA.pb
+-----------------------------------------------
+cousine
+-----------------------------------------------
+craftygirls
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/craftygirls/METADATA.pb
+-----------------------------------------------
+creepstercaps
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/creepstercaps/METADATA.pb
+-----------------------------------------------
+crushed
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/crushed/METADATA.pb
+-----------------------------------------------
+fontdinerswanky
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/fontdinerswanky/METADATA.pb
+-----------------------------------------------
+homemadeapple
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/homemadeapple/METADATA.pb
+-----------------------------------------------
+irishgrover
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/irishgrover/METADATA.pb
+-----------------------------------------------
+jsmathcmbx10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 256, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 117, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmbx10'
+-----------------------------------------------
+jsmathcmex10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 256, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 117, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmex10'
+-----------------------------------------------
+jsmathcmmi10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 256, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 117, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmmi10'
+-----------------------------------------------
+jsmathcmr10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 256, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 117, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmr10'
+-----------------------------------------------
+jsmathcmsy10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 256, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 117, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmsy10'
+-----------------------------------------------
+jsmathcmti10
+Traceback (most recent call last):
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 270, in <module>
+    app.run(main)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/Users/stephennixon/Environments/gf/lib/python3.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 256, in main
+    metadata = _MakeMetadata(fontdir, is_new)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 117, in _MakeMetadata
+    file_family_style_weights = _FileFamilyStyleWeights(fontdir)
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in _FileFamilyStyleWeights
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/bin/gftools-add-font.py", line 92, in <listcomp>
+    result = [fonts.FileFamilyStyleWeight(f) for f in files]
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 464, in FileFamilyStyleWeight
+    sw = StyleWeight(m.group(2))
+  File "/Users/stephennixon/type-repos/google-font-repos/gftools/Lib/gftools/util/google_fonts.py", line 448, in StyleWeight
+    return ('normal', _KNOWN_WEIGHTS[styleweight])
+KeyError: 'cmti10'
+-----------------------------------------------
+justanotherhand
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/justanotherhand/METADATA.pb
+-----------------------------------------------
+kranky
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/kranky/METADATA.pb
+-----------------------------------------------
+luckiestguy
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/luckiestguy/METADATA.pb
+-----------------------------------------------
+maidenorange
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/maidenorange/METADATA.pb
+-----------------------------------------------
+montez
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/montez/METADATA.pb
+-----------------------------------------------
+mountainsofchristmas
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/mountainsofchristmas/METADATA.pb
+-----------------------------------------------
+nokora
+-----------------------------------------------
+opensans
+-----------------------------------------------
+opensanscondensed
+-----------------------------------------------
+opensanshebrew
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/opensanshebrew/METADATA.pb
+-----------------------------------------------
+opensanshebrewcondensed
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/opensanshebrewcondensed/METADATA.pb
+-----------------------------------------------
+permanentmarker
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/permanentmarker/METADATA.pb
+-----------------------------------------------
+rancho
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/rancho/METADATA.pb
+-----------------------------------------------
+redressed
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/redressed/METADATA.pb
+-----------------------------------------------
+roboto
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/roboto/METADATA.pb
+-----------------------------------------------
+robotocondensed
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/robotocondensed/METADATA.pb
+-----------------------------------------------
+robotomono
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/robotomono/METADATA.pb
+-----------------------------------------------
+robotoslab
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/robotoslab/METADATA.pb
+-----------------------------------------------
+rochester
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/rochester/METADATA.pb
+-----------------------------------------------
+rocksalt
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/rocksalt/METADATA.pb
+-----------------------------------------------
+satisfy
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/satisfy/METADATA.pb
+-----------------------------------------------
+schoolbell
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/schoolbell/METADATA.pb
+-----------------------------------------------
+slackey
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/slackey/METADATA.pb
+-----------------------------------------------
+smokum
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/smokum/METADATA.pb
+-----------------------------------------------
+specialelite
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/specialelite/METADATA.pb
+-----------------------------------------------
+sunshiney
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/sunshiney/METADATA.pb
+-----------------------------------------------
+syncopate
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/syncopate/METADATA.pb
+-----------------------------------------------
+tinos
+-----------------------------------------------
+ultra
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/ultra/METADATA.pb
+-----------------------------------------------
+unkempt
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/unkempt/METADATA.pb
+-----------------------------------------------
+walterturncoat
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/walterturncoat/METADATA.pb
+-----------------------------------------------
+yellowtail
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/apache/yellowtail/METADATA.pb

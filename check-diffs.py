@@ -3,9 +3,13 @@
 """
 Use to check git diffs across the METADATA.pb file of one or more font families at once.
 
-Usage: Go into google/fonts directory, then run:
+Usage: Go into google/fonts directory (you must be within that git project), then run:
 
-check-diffs --dir <directory_of_font_dirs>
+`python <path>/check-diffs.py --dir <directory_of_font_dirs>`
+
+A file such as `git-diffs-ofl.txt` will be written at the root of the fonts directory with a simplified log of metadata diffs.
+
+Excludes changes to "subsets: menu," as these are (it seems) always simply moving the "menu" subset to be the last value in the list.
 
 """
 
@@ -39,7 +43,7 @@ def check_diffs(dir):
                         # logFile.write(str(line)[:3] + '\n')
                         lineStart = str(line)[:3]
                         if '+' in lineStart or '-' in lineStart:
-                            if b'---' not in line and b'+++' not in line:
+                            if b'---' not in line and b'+++' not in line and b'subsets: "menu"' not in line:
                                 logFile.write('    ' + str(line).replace(
                                     "b'", "'").replace("'\n", "\n") + "\n")
                     logFile.write(

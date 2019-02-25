@@ -33,6 +33,12 @@ Seems good
 
 ## Suspect updates
 
+**Should Adobe Blank get subsets, or will that break it?**
+
+Adobe Blank is given a bunch of subsets. This seems like it might break the intended functionality. I suspect that when a font has subsets, the "Latin" is automatically selected, and others are not. For Adobe Blank, this would prevent from replacing all glyphs with blanks.
+
+Conversely, not having these subsets might mean that Adobe Blank will be subset to default latin, and nothing else.
+
 **Escaping issues in copyright strings:**
 ```
 alikeangular
@@ -128,6 +134,12 @@ This is also happening in:
 - sunflower
 - yeonsung
 
+UPDATE: referring back to `add-font-errors/2019-02-15-21:00/apache/log.txt`, I see an explanation: I have no codepoint file for Korean glyphs.
+
+```
+no cp file for korean found at /korean_unique-glyphs.nam
+```
+
 ### Other lost subsets include
 
 This is a non-comprehensive list. To find all of them, go into the `diffs` files of this same directory and search for `-subsets:`.
@@ -181,12 +193,13 @@ ptserifcaption
 ```
 
 ## Next Steps
-- [ ] start with fresh batch of fonts repo, then re-build metadata files (without deleting any, first)
+- [ ] start with fresh batch of fonts repo, then re-build metadata files (without deleting any, first, to prevent issues around category or designer name loss)
 - [ ] re-run diff checks
 - [ ] check into suspect updates
+  - [ ] check into functionality of Adobe Blank & subsets
   - [ ] check what the bar is to have a `korean` or `simplified chinese` subset – it seems like it must be too strict, as these are being lost
 - [ ] check with Marc on a few suspect updates if they aren't clearly good or bad
-  - [ ] especially on loss of `korean` subset
+  - [x] especially on loss of `korean` subset
   - [ ] or language converage that is different between styles (e.g. News Cycle)
 - [ ] (maybe) find a way to render the copyright strings (containing `+  copyright` in the diffs), to tell more easily what escapes are good/bad
 - [ ] find way to get a specific read on percentages met by certain subsets (e.g. how much korean is in Gamja Flower?)

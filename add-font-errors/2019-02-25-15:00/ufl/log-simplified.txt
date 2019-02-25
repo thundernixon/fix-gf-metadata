@@ -1,0 +1,9 @@
+-----------------------------------------------
+ubuntu
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/ufl/ubuntu/METADATA.pb
+-----------------------------------------------
+ubuntucondensed
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/ufl/ubuntucondensed/METADATA.pb
+-----------------------------------------------
+ubuntumono
+Wrote /Users/stephennixon/type-repos/google-font-repos/fonts/ufl/ubuntumono/METADATA.pb

@@ -106,7 +106,7 @@ I want to talk to Dave, Felipe, and Marc to ask what they recommend.
 If I do move forward using `add-font` to generate this metadata, I'll need to make improvements to it.
 
 PR `add-font` to:
-- [ ] prevent issue of `no cp file for...` errors
+- [ ] ~~prevent issue of `no cp file for...` errors~~ add necessary codepoint files, especially Korean
 - [ ] correctly take the designer name from font nameID 8 or 9
 - [ ] handle exceptional font names, probably by getting them from font nameIDs 16 or 1, minus the possible style name
 - [ ] handle VF names
@@ -125,3 +125,26 @@ if typographic_name:
 else:
     family_name = nametable.getName(1, 3, 1, 1033).toUnicode()
 ```
+
+## Possible "simple" way to do this: just add `ext` subsets to existing metadata
+
+So far, I've tried to run `add-font` on all fonts. This changes quite a few lines beyond just subsets.
+
+On the one hand, `add-font` should work for all fonts. On the other hand, it would probably solve the issue much more quickly if I just run it to find all cases (looks like it's about 200 families) in which `ext` subsets could be added, and then I can copy those into existing metadata, without touching other lines.
+
+- [ ] check that `cyrillic-ext` and `greek-ext` should also be added with similarly "easy" criteria
+
+## Maybe: making `korean` subset 
+
+### With Pyfontaine?
+
+So far, I haven't been able to test Pyfontaine due to setup issues.
+
+```
+pyfontaine /Users/stephennixon/Downloads/NotoSerifKR-Regular.otf
+WARNING: Please install PyICU <https://pypi.python.org/pypi/PyICU> to enable CLDR related features, perhaps with: pip install pyicu
+```
+
+...this continues to happen after `pip install pyicu` and `brew install pyicu`, so I may need to try something further, if this is a suggested route. Here are some troubleshooting ideas:
+
+https://stackoverflow.com/questions/40940188/error-installing-pip-pyicu
