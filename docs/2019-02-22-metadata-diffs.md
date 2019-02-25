@@ -96,25 +96,42 @@ scopeone
 
 News Cycle regular includes Cyrillic and Greek, but News Cycle Bold does not.
 
-**Lost subsets**
-Should Gamja have lost its Korean subset?
+### Lost subsets
+
+All of the "korean" subsets have been removed, which seems like it _must_ be an error.
+
 ```
-gamjaflower
+blackhansans
+    '-  copyright: "Copyright 2015 The Black Han Sans Authors"'
+    '+  copyright: "(c) ZESSTYPE 2015"'
     '-subsets: "korean"'
     '+subsets: "latin-ext"'
 ```
-nanumbrushscript, nanumgothic, nanumgothiccoding, nanummyeongjo, and nanumpenscript
-```
-'-subsets: "korean"'
-```
-```
-stylish
-    '-subsets: "korean"'
-```
-```
-sunflower
-    '-subsets: "korean"'
-```
+
+This is also happening in:
+- blackandwhitepicture
+- cutefont
+- dohyeon
+- dokdo
+- eastseadokdo
+- gaegu
+- gamjaflower
+- gothica1
+- gugi
+- himelody
+- kiranghaerang
+- nanumbrushscript, nanumgothic, nanumgothiccoding, nanummyeongjo, and nanumpenscript
+- poorstory
+- singleday
+- songmyung
+- stylish
+- sunflower
+- yeonsung
+
+### Other lost subsets include
+
+This is a non-comprehensive list. To find all of them, go into the `diffs` files of this same directory and search for `-subsets:`.
+
 ```
 teko
     '-subsets: "devanagari"'
